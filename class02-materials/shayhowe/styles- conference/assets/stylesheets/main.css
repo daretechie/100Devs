@@ -46,7 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 } 
-/* declaring the box sizing */
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
 *, *:before, *:after{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -55,8 +60,25 @@ table {
 
 .container {
 	width: 960px;
-	padding: 0 30px 0;
-	margin: 0 auto 0;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before, .group:after {
+	content: "";
+	display: table;
+}
+.group:after{
+	clear: both;
+}
+.group {
+	clear: both;
+	*zoom: 1;
 }
 
 /*
@@ -64,14 +86,17 @@ table {
   Typography
   ========================================
 */
+
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
+
 /*
   ========================================
   Buttons
   ========================================
 */
+
 .btn{
 	border-radius: 5px;
 	display: inline-block;
@@ -81,6 +106,7 @@ h1, h3, h4, h5, p {
 	border: 1px solid #dfe2e5;
 	padding: 10px 30px;
 }
+
 /*
   ========================================
   Home
@@ -90,3 +116,4 @@ h1, h3, h4, h5, p {
 .hero {
   padding: 22px 80px 66px 80px;
 }
+
