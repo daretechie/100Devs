@@ -121,7 +121,7 @@ body {
   ========================================
 */
 
-.row, row-alt {
+.row {
   background: #fff;
   padding: 66px 0 44px 0;
 }
@@ -322,6 +322,15 @@ Nav
 .nav {
   text-align: right;
 }
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.nav li:last-child{
+  margin-right: 0;
+}
 
 .primary-header a,
 .primary-footer a {
@@ -344,4 +353,21 @@ Nav
 .lead p {
   font-size: 21px;
   line-height: 33px;
+}
+
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
+  
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: center;
+}
+.speaker {
+  margin-bottom: 44px;
 }
