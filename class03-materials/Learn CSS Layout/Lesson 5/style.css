@@ -1,0 +1,16 @@
+.simple{
+  width: 500px;
+  margin: 20px auto;
+  border: solid green;
+}
+
+.fancy{
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 50px;
+  border: solid green;
+}
+
+h1{
+  text-align: center;
+}
