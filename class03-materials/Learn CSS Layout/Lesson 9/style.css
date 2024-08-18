@@ -1,0 +1,13 @@
+h1{
+  text-align: center;
+}
+
+div{
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+img{
+  float: right;
+  margin: 0 0 1em 1em;
+}
