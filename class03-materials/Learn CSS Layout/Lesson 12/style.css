@@ -1,0 +1,15 @@
+h1{
+  text-align: center;
+}
+
+.container{
+  border: solid purple;
+}
+nav{
+  width: 200px;
+  float: left;
+}
+section{
+  border: solid plum;
+ margin-left: 200px;
+}

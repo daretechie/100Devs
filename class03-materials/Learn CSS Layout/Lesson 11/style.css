@@ -1,0 +1,19 @@
+h1{
+  text-align: center;
+}
+
+img {
+  float: right;
+}
+
+
+div{
+  width: 600px;
+  margin: 0 auto;
+  border: solid sandybrown;
+}
+
+.clearfix{
+  overflow: auto;
+  zoom: 1;
+}
