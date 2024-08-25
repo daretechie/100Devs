@@ -15,29 +15,33 @@ body {
   color: white;
 }
 
+/* Header */
 h1{
   text-align: center;
   font-style: italic;
   margin-bottom: 15px;
 }
 
-nav, ul{
-  display: inline;
-}
-
-ul{
-
+nav{
+  text-align: center;
 }
 
 li{
   list-style: none;
-  font-weight: bold;  
+  font-weight: bold;
+  display: inline-block;
+}
+
+li > span{
+  color: gray;
+  font-weight: 900;
 }
 
 a {
   color: rgba(71, 205, 48, 1)
 }
 
+/* Section */
 img {
   width: 200px;
   height: 300px;
@@ -47,9 +51,4 @@ img {
 p {
   margin: 20px 0; 
   font-size: 20px; 
-}
-
-footer{
-  /* margin-top: 40px; */
-
 }
