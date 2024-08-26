@@ -1,0 +1,29 @@
+article{
+  max-width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  border: solid sandybrown;
+}
+
+article img {
+  float: right;
+  width: 50%;
+}
+
+h1{
+  text-align: center;
+}
+
+.container{
+  border: solid purple;
+}
+
+nav {
+  float: left;
+  width: 25%;
+  border: solid rgb(194, 38, 11);
+}
+section {
+  margin-left: 25%;
+  border: solid plum;
+}

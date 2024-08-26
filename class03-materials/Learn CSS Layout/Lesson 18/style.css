@@ -1,0 +1,44 @@
+.container{
+  border: solid #05cebd;
+  display: flex;
+}
+
+.flex-column{
+  border: solid #ec0d88;
+  flex: 1;
+}
+section{
+  border: solid yellow;
+}
+nav{
+  border: solid #ec0d88;
+  width: 200px;
+}
+
+.initial{
+  width: 200px;
+  min-width: 100px;
+  flex: initial;
+}
+
+.none{
+  flex: none;
+  width: 200px;
+}
+
+.flex1{
+  flex: 1;
+}
+flex1{
+  text-align: left;
+  flex: 2;
+}
+
+.vertical-container {
+  height: 300px;
+  display: flex;
+  border: solid #05cebd;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}

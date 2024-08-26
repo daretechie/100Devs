@@ -1,0 +1,29 @@
+h1{
+  text-align: center;
+}
+
+.container{
+  border: solid purple;
+}
+nav{
+  border: solid rgb(9, 172, 131); 
+}
+section{
+ border: solid plum;
+ margin-left: 200px;
+}
+
+@media (min-width:600px) {
+  nav {
+    float: left;
+    width: 25%;
+  }
+  section{
+    margin-left: 25%;
+  }
+}
+@media (max-width:599px) {
+  nav li {
+    display: inline;
+  }
+}

@@ -1,0 +1,26 @@
+.container{
+  border: solid #0dbfd6;
+  position: relative;
+}
+section{
+  border: solid rgb(199, 196, 7);
+  position: relative;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  border: solid rgb(194, 38, 11);
+  position: relative;
+  
+}
+.column {
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
+  border: solid rgb(7, 26, 199);
+  position: relative;
+  
+  
+}

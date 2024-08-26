@@ -1,0 +1,25 @@
+h1{
+  text-align: center;
+}
+
+.box{
+  border: solid sienna;
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+  float: left;
+}
+.after-box{
+  clear: left;
+}
+
+/* The Easy Way (using inline-block) */
+
+.box2{
+  border: solid rgb(212, 19, 19);
+  width: 200px;
+  height: 100px;
+  margin: 1em;
+  display: inline-block;
+  
+}

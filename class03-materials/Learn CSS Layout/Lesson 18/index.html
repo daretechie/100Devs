@@ -3,9 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <title>flexbox</title>
 </head>
 <body>
-  
+  <h1>
+    flexbox
+  </h1>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Taco Menu</a></li>
+        <li><a href="#">Draft List</a></li>
+        <li><a href="#">Hours</a></li>
+        <li><a href="#">Directions</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="flex-column">
+    <section>
+      <p>
+        Flexbox is so easy!
+      </p>
+    </section>
+
+    <section>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+      </p>
+    </section>
+
+    <section>
+      <p>
+        Notice what happens when you resize your browser. It works nicely!
+      </p>
+    </section>
+  </div>
+  </div>
+
+  <footer>
+    <p>If you use a fixed header or footer, make sure there is room for it! I put a margin-bottom on the body.</p>
+  </footer>
+
+  <h1>Fancy Layout using Flexbox</h1>
+  <div class="container">
+
+    <div class="initial">
+      be 200px when there is room, and I will shrink down to 100px if there is not room, but no smaller.
+    </div>
+
+    <div class="none">
+      I will always be 200px, no matter what.
+    </div>
+
+    <div class="flex1">
+      up 1/3 of the remaining width.
+    </div>
+
+    <div class="flex2">
+      up 2/3 of the remaining width.
+    </div>
+  </div>
+
+  <div class="vertical-container">
+    <div>
+      Finally, it's easy to vertically center something in CSS!
+    </div>
+  </div>
 </body>
 </html>
