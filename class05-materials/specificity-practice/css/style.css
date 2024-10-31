@@ -1,16 +1,16 @@
 /* Please Make only Rhino and Zebra Blue */
-#rhino, #zebra{
+#rhino,
+#zebra {
   color: blue;
 }
 /* Please Make only Hufflepuff Gold */
-#bestHouse{
+#bestHouse {
   color: gold;
 }
 /* Please select Duck with the highest level of specificity possible */
-.areDucksDinosaurs.likesToQuack{
-
+section.middle + article.areDucksDinosaurs > h2.likesToQuack.fight10r100 {
+  color: lime;
 }
 /* Please select Rhino with the highest level of specificity possible */
-#rhino{
-  
+#rhino {
 }
