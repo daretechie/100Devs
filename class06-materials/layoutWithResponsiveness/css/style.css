@@ -44,9 +44,22 @@ section {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 575px) {
   section {
     float: none;
     width: 100%;
+    background: lavenderblush;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  section {
+    float: none;
+    width: 100%;
+    background: papayawhip;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+    background: azure;
   }
 }
