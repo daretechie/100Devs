@@ -47,46 +47,46 @@ nav form input {
   width: 100%;
 }
 
-/* header nav * {
-  margin-top: 5px;
-  margin-right: 40px;
+header + section h1,
+header + section h2 {
   float: left;
-  list-style: none;
-} */
+  width: 28%;
+}
+header + section h1 {
+  margin-right: 44%;
+}
+
 /* 
-main > section > h1,
-main > section > h1 + h2 {
-  float: left;
+header + section h2 {
+  float: right;
+  width: 50%;
 } */
 
-main section + section {
-  width: 50%;
+main > section {
   float: left;
+  width: 48%;
+  height: 600px;
+  margin: 5px;
 }
 
-main section section + section section {
-  width: 50%;
-}
-main section section + section section img {
-  width: 10%;
-}
-/* main > section > img {
+main > section > img {
   width: 100%;
-} */
-
-main + section > section {
+}
+main section + section section {
+  float: left;
+  width: 50%;
+  height: 300px;
+}
+main section + section section img {
+  width: 90%;
+}
+main {
+  clear: both;
+}
+main + section section {
   width: 33.3333%;
   float: left;
 }
-main + section + section > img {
-  width: 100%;
-}
-
-main + section > section > img {
+main + section section img {
   width: 95%;
-  height: 95%;
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
